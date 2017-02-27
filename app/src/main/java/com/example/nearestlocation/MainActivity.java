@@ -2,12 +2,15 @@ package com.example.nearestlocation;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.PointF;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.text.Html;
 import android.util.Log;
 import android.view.Menu;
@@ -17,49 +20,21 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
 	protected static final String TAG = MainActivity.class.getSimpleName();
-	
+	public static Context appContext;
 	protected ListView mListView;
 	protected TextView mTextView;
 	protected CheckBox mCheckUsedGps;
-	private LocationManager mLocationManager;
 	private ResultListAdapter mListAdapter;
-	
-	private LocationListener mLocationListener = new LocationListener() {
+	public static void runOnUI(Runnable runnable){
+		Handler handler = new Handler(Looper.getMainLooper());
+		handler.post(runnable);
+	}
 
-		@Override
-		public void onLocationChanged(Location location) {
-			mLocationManager.removeUpdates(this);
-			if (location != null) {
-				if (mTextView != null) {
-					mTextView.setText("Lat : " + location.getLatitude() + " - Lng : " + location.getLongitude());
-				}
-				findNearest(location.getLatitude(), location.getLongitude());
-			}
-		}
-
-		@Override
-		public void onStatusChanged(String provider, int status, Bundle extras) {
-		}
-
-		@Override
-		public void onProviderEnabled(String provider) {
-			if (mTextView != null) {
-				mTextView.setText("GPS is enabled!");
-			}
-		}
-
-		@Override
-		public void onProviderDisabled(String provider) {
-			if (mTextView != null) {
-				mTextView.setText("GPS is not enabled!");
-			}
-		}
-		
-	};
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -75,15 +50,19 @@ public class MainActivity extends Activity {
 		mTextView = (TextView)findViewById(R.id.textLocation);
 		mCheckUsedGps = (CheckBox)findViewById(R.id.checkGpsOnly);
 		
-		mLocationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
+
 		
 		Button btnCheck = (Button)findViewById(R.id.buttonCheck);
 		btnCheck.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
-				checkLocation();
-				findNearest(17.002113,96.092414);
+				MainActivity.appContext=MainActivity.this.getApplicationContext();
+			//	checkLocation();
+			//	findNearest(17.002113,96.092414);
+				Toast.makeText(MainActivity.this,"started",Toast.LENGTH_SHORT).show();
+				Intent intent = new Intent(MainActivity.this, LocService.class);
+				startService(intent);
 			}
 		});
 	}
@@ -101,23 +80,7 @@ public class MainActivity extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
-	
-	protected void checkLocation() {
-		if (mCheckUsedGps != null && mCheckUsedGps.isChecked()) {
-			if (mLocationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
-				mLocationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, mLocationListener);
-			} else {
-				mTextView.setText("GPS is not enabled!");
-			}	
-		} else {
-			if (mLocationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER)) {
-				mLocationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, mLocationListener);
-			} else {
-				mTextView.setText("Can't connect to internet!");
-			}	
-		}
-	}
-	
+
 	protected void findNearest(double x, double y) {
 		float radius = 10000.0f; // meter
 		PointF center = new PointF((float)x, (float)y);

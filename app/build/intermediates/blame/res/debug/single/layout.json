@@ -1,10 +1,10 @@
 [
     {
-        "merged": "F:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\two_line_list_item.xml",
-        "source": "F:\\AndroidStudioProjectfiles\\NearestLocation\\app\\src\\main\\res\\layout\\two_line_list_item.xml"
+        "merged": "C:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\two_line_list_item.xml",
+        "source": "C:\\Data\\dev\\training\\student\\NearestLocation\\app\\src\\main\\res\\layout\\two_line_list_item.xml"
     },
     {
-        "merged": "F:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "F:\\AndroidStudioProjectfiles\\NearestLocation\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Data\\dev\\training\\student\\NearestLocation\\app\\src\\main\\res\\layout\\activity_main.xml"
     }
 ]

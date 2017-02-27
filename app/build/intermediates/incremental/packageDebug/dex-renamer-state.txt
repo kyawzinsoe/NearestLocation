@@ -1,4 +1,7 @@
-#Thu Feb 23 12:58:00 MMT 2017
-base.0=F\:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=F\:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Sun Feb 26 16:02:34 MMT 2017
+base.0=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bdb405dfcff0ab36295d7634918f750db2e491c9
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_af9eb4a7dab36163490cf0662a51fb528ece6c71\\classes.dex
+base.1=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_af9eb4a7dab36163490cf0662a51fb528ece6c71
+file.0=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bdb405dfcff0ab36295d7634918f750db2e491c9\\classes.dex

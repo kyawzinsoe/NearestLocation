@@ -2,49 +2,49 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="F:\AndroidStudioProjectfiles\NearestLocation\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        is-multidex="true"
+        jar="C:\Data\dev\training\student\NearestLocation\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="F:\AndroidStudioProjectfiles\NearestLocation\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1_035f3b1a21ef4d62621405d866a31e1efce5fa6b.jar" />
+        sha1="07a1a26f7498a796eb139d8ffb90e4cc4560a023">
+        <dex dex="C:\Data\dev\training\student\NearestLocation\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_bdb405dfcff0ab36295d7634918f750db2e491c9\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        is-multidex="true"
+        jar="C:\Data\dev\training\student\NearestLocation\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="208c39d3b4ca94b6adff71c967e7ce1adfa1856b">
+        <dex dex="C:\Data\dev\training\student\NearestLocation\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_af9eb4a7dab36163490cf0662a51fb528ece6c71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Fairway\Android\Android-SDK\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="F:\AndroidStudioProjectfiles\NearestLocation\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1_db1bb2a3f1608a31c38a2d1f5698fe71cc45038a.jar" />
+        <dex dex="C:\Data\dev\training\student\NearestLocation\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.1_84e49be292013c0e89e503dad25fe458f0128f9e\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="F:\AndroidStudioProjectfiles\NearestLocation\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        is-multidex="true"
+        jar="C:\Data\dev\training\student\NearestLocation\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="591be4310efc58e529933467018388a80084b6c9">
-        <dex dex="F:\AndroidStudioProjectfiles\NearestLocation\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_e78fefe05d58ea469f99396e2fbab3e79f81a542.jar" />
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Data\dev\training\student\NearestLocation\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_4b16d28cd3763cd35489e91b732765718901ace1\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="F:\AndroidStudioProjectfiles\NearestLocation\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1a11b5b43d83c200be384e1e7b83d5e5b86184a0">
-        <dex dex="F:\AndroidStudioProjectfiles\NearestLocation\app\build\intermediates\pre-dexed\debug\instant-run_2e862f1ddbaaa091eb59a0aa1bdbb2e262497ea7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\AndroidStudioProjectfiles\NearestLocation\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Data\dev\training\student\NearestLocation\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="F:\AndroidStudioProjectfiles\NearestLocation\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.2.1_6b3f02303718df0c50acfef44b90e53dbbfb1104.jar" />
+        <dex dex="C:\Data\dev\training\student\NearestLocation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.1_ccecc952f66cd3b7a526575c1415386c5a7d9ccc\classes.dex" />
     </item>
 
 </items>

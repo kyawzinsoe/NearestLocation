@@ -1,24 +1,24 @@
 #Internal package file, do not edit.
-#Thu Feb 23 12:57:29 MMT 2017
-2.base=F\:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_
-5.file=F\:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\main.xml
+#Sun Feb 26 11:32:01 MMT 2017
+2.base=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_
+5.file=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\two_line_list_item.xml
 5.set=ANDROID_RESOURCE
-3.base=F\:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_
-6.file=F\:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main.xml
+3.base=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_
+6.file=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\two_line_list_item.xml
 2.set=ANDROID_RESOURCE
-4.base=F\:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.base=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_
 count=7
-0.file=F\:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\two_line_list_item.xml
-5.base=F\:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_
+0.file=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_launcher.png
+5.base=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_
 4.set=ANDROID_RESOURCE
-6.base=F\:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_
-1.file=F\:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+6.base=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.file=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
 1.set=ANDROID_RESOURCE
-2.file=F\:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\ic_launcher.png
+2.file=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\main.xml
 6.set=ANDROID_RESOURCE
-0.base=F\:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_
-3.file=F\:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+0.base=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main.xml
 3.set=ANDROID_RESOURCE
-1.base=F\:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_
-4.file=F\:\\AndroidStudioProjectfiles\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\two_line_list_item.xml
+1.base=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=C\:\\Data\\dev\\training\\student\\NearestLocation\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
 0.set=ANDROID_RESOURCE
